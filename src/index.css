@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+
+:root {
+  --a0-primary-color: #1ab99e;
+  --a1-primary-color: #48c1a8;
+  --a2-primary-color: #66c9b3;
+  --a3-primary-color: #7fd1bd;
+  --a4-primary-color: #96d9c8;
+  --hover-primary-color: #36787d;
+  --pressed-primary-color: #12686e;
+
+  --l0-surface-color: #111313;
+  --a0-surface-color: #121212;
+  --a1-surface-color: #282828;
+  --a2-surface-color: #3f3f3f;
+  --a3-surface-color: #575757;
+  --a4-surface-color: #717171;
+
+  --reject-color: #c8454a;
+
+  
+  --white: #fff;
+}
+
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+  box-sizing: border-box;
+  font-family: "Exo", serif;
+  background-color: var(--a1-surface-color);
+  color: var(--white)
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}

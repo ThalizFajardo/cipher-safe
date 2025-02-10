@@ -1,0 +1,32 @@
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    text-align: center;
+    padding: 0 1.6rem;
+    border: none;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.primary {
+    background-color: var(--a4-primary-color);
+    color: var(--l0-surface-color)
+}
+
+.secondary {
+    background-color: var(--a4-primary-color);
+    color: var(--white)
+}
+
+.primary:hover{
+    background-color: var(--hover-primary-color);
+    color: var(--white)
+}
+
+.primary:active{
+    background-color: var(--pressed-primary-color);
+    color: var(--white)
+}
