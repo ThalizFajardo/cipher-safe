@@ -1,0 +1,61 @@
+
+.contentLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.2rem;
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+.heading {
+    font-size: 2.5rem;
+    color: var(--a2-primary-color)
+}
+
+.subheading {
+    font-size: 1.3rem;
+    color: var(--a4-primary-color)
+}
+
+.loginForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 1rem;
+}
+
+.loginForm > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > div > input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 0.2rem;
+}
+
+.loginForm > div:last-child {
+    margin-bottom: 12rem;
+}
+
+.textFooter {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.textFooter > a {
+    color: white
+}
+
+.errorText {
+    color: var(--reject-color);
+    font-size: 0.875rem;
+    margin-top: 4px;
+}
