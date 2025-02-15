@@ -15,6 +15,10 @@
   --a2-surface-color: #3f3f3f;
   --a3-surface-color: #575757;
   --a4-surface-color: #717171;
+  --a5-surface-color: #ccc;
+
+  --gradient-color: linear-gradient(135deg, rgba(18,104,110,1), rgba(9,9,121,1)); 
+
 
   --reject-color: #c8454a;
 

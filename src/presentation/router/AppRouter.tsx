@@ -11,6 +11,10 @@ const SecurityBoxPage = React.lazy(
   () => import("../dashboard/security-box/pages/SecurityBoxPage")
 );
 
+const CredentialStoragePage = React.lazy(
+  () => import("../dashboard/credential-storage/pages/CredentialStoragePage")
+);
+
 const AppRouter = () => {
   const { status, checkAuthSession } = useAuthStore();
 
@@ -33,6 +37,10 @@ const AppRouter = () => {
             <Route path="/dashboard">
               <Route index element={<SecurityBoxPage />} />
               <Route path="security-box" element={<SecurityBoxPage />} />
+              <Route
+                path="credentail-storage"
+                element={<CredentialStoragePage />}
+              />
               <Route path="*" element={<h1>Not Found</h1>} />
             </Route>
           </>

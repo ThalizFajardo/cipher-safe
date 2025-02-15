@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.header h2 {
+    font-family: "Orbitron", serif;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    color: var(--a0-primary-color)
+}
